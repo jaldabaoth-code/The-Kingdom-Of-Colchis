@@ -1,86 +1,56 @@
 body {
     background-color: #cdcdcd;
     margin: 0;
+    margin-bottom: 30px;
 }
-  
+
 header {
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    z-index: 10;
-}
-
-.logo {
-    height: 100%;
-}
-
-.logo_menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    padding-bottom: 0;
+    background-color: white;
     height: 50px;
 }
 
-.menu {
-    display: inline;
+.navbar-logo {
+    height: 100%;
 }
 
-.menu a {
-    margin: 0 30px;
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px 30px;
+    text-decoration: none;
     font-size: 25px;
     font-family: "Amatic SC", cursive;
-    text-decoration: none;
     font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
     color: darkorange;
+    background-color: #3f3e3ec7;
 }
 
 .welcome {
-    height: 300px;
+    height: 400px;
     background-image: url(../images/castle.jpg);
     background-size: cover;
-    background-position-y: center;
-    position: relative;
 }
 
 h1 {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
-    position: absolute;
-    top: 130px;
-    text-align: center;
     color: orangered;
     background-color: #3f3e3ec7;
-    line-height: 60px;
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
-.history {
-    font-size: large;
-    font-family: Myfont, Arial;
-}
-
-/*--- Images ---*/
-.royals img {
-    height: 300px;
-    width: 250px;
-    object-fit: cover;
-    /* margin-top: 300px; */
-}
-
-.royals h1 {
+h2 {
     text-align: center;
-    color: orangered;
 }
-
-.content {
-   /*  position: absolute; */
-    top: 50px;
-    width: 100%;
-    display: block;
-}
-

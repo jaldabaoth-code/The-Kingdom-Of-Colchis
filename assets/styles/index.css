@@ -1,0 +1,13 @@
+.heroes-images {
+    display: flex;
+    justify-content: center;
+}
+.heroes-images img {
+    width: 400px;
+}
+
+.history {
+    font-size: large;
+    font-family: Myfont, Arial;
+    padding: 20px;
+}

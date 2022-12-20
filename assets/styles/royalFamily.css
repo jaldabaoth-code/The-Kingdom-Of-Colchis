@@ -1,13 +1,18 @@
-.flex-container {
+.royals {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.flex-item {
+.royals img {
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.royal {
     width: 250px;
     margin: 10px 10px;
     text-align: center;
 }
-
