@@ -1,0 +1,65 @@
+/*--- Contact Us ---*/
+.contact {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact_form {
+    width: 350px;
+    margin: auto;
+}
+
+input {
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+    font-family: Arial;
+    color: black;
+    font-size: 15px;
+}
+
+.first_name {
+    height: 30px;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.last_name {
+    height: 30px;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.email {
+    height: 30px;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.message {
+    height: 100px;
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+/* Button */
+.submit {
+    background-color: #333;
+    background: linear-gradient(to bottom, #333, #444);
+    border: 1px solid #222;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    width: 355px;
+}
+
+.submit:hover {
+    color: #2f9fe1;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+}
