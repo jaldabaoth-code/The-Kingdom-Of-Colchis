@@ -11,7 +11,3 @@
 2. Enter the directory : `cd The-Kingdom-Of-Colchis`
 3. Run the internal PHP webserver with `php -S localhost:8000`
 4. Go to <b>localhost:8000</b> with your favorite browser
-
----
-
-## The Links
