@@ -1,7 +1,6 @@
-<h1>The Kingdom Of Colchis (Quest, WCS Web PHP)</h1>
+<h1>The Kingdom Of Colchis (Tech Challenge Quest, WCS Web PHP)</h1>
 
-### Create a 
-
+### "The challenge" is to create a site web in 1 day to show his basic skills in web dev
 
 ---
 
